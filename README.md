@@ -144,3 +144,28 @@ if __name__ == '__main__':
 
 # Hasil
 
+# Upload gambar
+![WhatsApp Image 2024-05-23 at 13 47 21_b68b7f07](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/218b6c07-325a-472b-b41c-f31edbe45f3c)
+
+# Sudah di upload
+![WhatsApp Image 2024-05-23 at 13 47 21_0508a85d](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/e4e86461-abbd-4f85-bf31-3a4584154294)
+
+# HSV
+![WhatsApp Image 2024-05-23 at 13 47 20_20ac3b04](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/4ffe2c05-2830-479e-99aa-bd005ef9544f)
+
+# HISTOGRAM
+![WhatsApp Image 2024-05-23 at 13 47 22_b9511572](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/4d265dbe-aaa6-4590-9196-4912e8583f50)
+
+# BRIGHTNESS DAN CONTRAST
+![WhatsApp Image 2024-05-23 at 13 47 21_4b5a4ff7](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/468e89fe-cfdd-42ef-afc9-0f139e6f502e)
+
+# CONTOURS
+![WhatsApp Image 2024-05-23 at 13 47 23_3e249146](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/0e49b393-9d76-4f7a-8102-6d17ef496299)
+
+# SEGMENTASI
+![WhatsApp Image 2024-05-23 at 13 47 22_2c00b670](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/00b59964-902e-40ea-b5fe-df2619e76b7e)
+
+
+
+
+
