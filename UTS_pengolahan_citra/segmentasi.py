@@ -81,7 +81,7 @@ def main():
         """
         <div class="title-wrapper">
             <h1 style="font-size: 48px; text-align: center; color: #F08080;
-                text-shadow: 2px 2px 4px #000000;">Aplikasi Manipulasi Proses Gambar</h1>
+                text-shadow: 2px 2px 4px #000000;">Aplikasi Manipulasi Proses Gambar Citra</h1>
         </div>
         """,
         unsafe_allow_html=True
