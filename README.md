@@ -150,26 +150,32 @@ if _name_ == '_main_':
 # Hasil
 
 # Upload gambar
-![8,](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/930917b1-244e-4c7f-ac6f-3c21e5fa3735)
+![12](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/480e46bf-a4b1-42be-a1e1-b780d75bd92c)
+
 
 # Sudah di upload
-![9,](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/53b966b1-a5e6-4c2b-b120-fb64a55b5aef)
+![11](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/eb44361b-2938-4cde-a6a1-773cc80689e7)
+
 
 
 # HSV
-![3,](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/202de7bc-ab60-4404-81e9-a318a8d1eca8)
+![13](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/912638e0-b0ed-42e2-b668-26cfd566e6e8)
+
 
 # HISTOGRAM
-![4,](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/239ff619-6c01-4e62-94f2-3ce663e98b96)
+![14](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/3f1b5055-263b-4746-a1cd-a3719a342689)
 
-# BRIGHTNESS DAN CONTRAST
-![5,](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/518138d1-6377-4c56-9c6c-837e1e288275)
+
+# BRIGHTNESS DAN CONTRAS
+![15](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/92961cb0-8ced-46ea-9d99-747bc91ad613)
 
 # CONTOURS
-![6,](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/c575cf91-5442-458c-b132-3caa9c69f490)
+![16](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/80ebc0a7-d183-43c9-8cb7-a2d79a2743fb)
+
 
 # SEGMENTASI
-![7,](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/65ea7d65-80de-4896-9a80-83e412ad07f5)
+![17](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/cf86547b-d08a-4ab4-9af4-e1df8c21f555)
+
 
 
 
