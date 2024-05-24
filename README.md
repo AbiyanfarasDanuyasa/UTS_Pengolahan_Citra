@@ -145,25 +145,27 @@ if _name_ == '_main_':
 # Hasil
 
 # Upload gambar
-![WhatsApp Image 2024-05-23 at 13 47 21_b68b7f07](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/218b6c07-325a-472b-b41c-f31edbe45f3c)
+![8,](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/930917b1-244e-4c7f-ac6f-3c21e5fa3735)
 
 # Sudah di upload
-![WhatsApp Image 2024-05-23 at 13 47 21_0508a85d](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/e4e86461-abbd-4f85-bf31-3a4584154294)
+![9,](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/53b966b1-a5e6-4c2b-b120-fb64a55b5aef)
+
 
 # HSV
-![WhatsApp Image 2024-05-23 at 13 47 20_20ac3b04](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/4ffe2c05-2830-479e-99aa-bd005ef9544f)
+![3,](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/202de7bc-ab60-4404-81e9-a318a8d1eca8)
 
 # HISTOGRAM
-![WhatsApp Image 2024-05-23 at 13 47 22_b9511572](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/4d265dbe-aaa6-4590-9196-4912e8583f50)
+![4,](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/239ff619-6c01-4e62-94f2-3ce663e98b96)
 
 # BRIGHTNESS DAN CONTRAST
-![WhatsApp Image 2024-05-23 at 13 47 21_4b5a4ff7](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/468e89fe-cfdd-42ef-afc9-0f139e6f502e)
+![5,](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/518138d1-6377-4c56-9c6c-837e1e288275)
 
 # CONTOURS
-![WhatsApp Image 2024-05-23 at 13 47 23_3e249146](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/0e49b393-9d76-4f7a-8102-6d17ef496299)
+![6,](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/c575cf91-5442-458c-b132-3caa9c69f490)
 
 # SEGMENTASI
-![WhatsApp Image 2024-05-23 at 13 47 22_2c00b670](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/00b59964-902e-40ea-b5fe-df2619e76b7e)
+![7,](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/65ea7d65-80de-4896-9a80-83e412ad07f5)
+
 
 
 
