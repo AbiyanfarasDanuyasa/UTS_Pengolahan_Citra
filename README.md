@@ -132,13 +132,13 @@ def main():
             image_with_contours = cv2.drawContours(image.copy(), contours, -1, (0, 255, 0), 2)
             st.image(image_with_contours, channels="BGR", use_column_width=True)
         
-        st.subheader('Segment Image using K-Means Clustering')
+        st.subheader('Segmentasi')
         k = st.slider('Number of clusters (k)', 2, 10, 4)
         if st.button('Segment Image'):
             segmented_image = segment_image_kmeans(image, k)
             st.image(segmented_image, caption='Segmented Image', use_column_width=True)
 
-if __name__ == '__main__':
+if _name_ == '_main_':
     main()
 ```
 
