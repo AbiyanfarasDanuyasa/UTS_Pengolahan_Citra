@@ -55,11 +55,15 @@ def set_theme():
         """,
         unsafe_allow_html=True
     )
-
+```
+# HSV
+```
 def convert_to_hsv(image):
     hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
     return hsv_image
-
+```
+# HISTOGRAM
+```
 def compute_histogram(image):
     colors = ('b', 'g', 'r')
     fig, ax = plt.subplots(figsize=(6, 4))
@@ -71,18 +75,24 @@ def compute_histogram(image):
     ax.set_xlabel('Pixel Value')
     ax.set_ylabel('Frequency')
     st.pyplot(fig)
-
+```
+# BRIGHTNESS DAN CONTRAS
+```
 def adjust_brightness_contrast(image, brightness, contrast):
     adjusted = cv2.convertScaleAbs(image, alpha=contrast/127.0, beta=brightness)
     return adjusted
-
+```
+# CONTOURS
+```
 def find_contours(image):
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     blurred = cv2.GaussianBlur(gray, (5, 5), 0)
     edged = cv2.Canny(blurred, 50, 150)
     contours, _ = cv2.findContours(edged, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     return contours
-
+```
+SEGMENTASI
+```
 def segment_image_kmeans(image, k):
     image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
     pixel_values = image_rgb.reshape((-1, 3))
@@ -93,7 +103,9 @@ def segment_image_kmeans(image, k):
     segmented_image = centers[labels.flatten()]
     segmented_image = segmented_image.reshape(image.shape)
     return segmented_image
-
+```
+# Bagian penting di bawah ini
+```
 def main():
     set_theme()
 
@@ -150,31 +162,37 @@ if _name_ == '_main_':
 # Hasil
 
 # Upload gambar
-![12](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/480e46bf-a4b1-42be-a1e1-b780d75bd92c)
+![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/de60cfa4-0047-4410-8014-26eb6e630f34)
+
+
 
 
 # Sudah di upload
-![11](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/eb44361b-2938-4cde-a6a1-773cc80689e7)
-
+![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/e9cd5d30-b83f-440a-b24d-25ad03a6379b)
 
 
 # HSV
-![13](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/912638e0-b0ed-42e2-b668-26cfd566e6e8)
+![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/8ae4db1e-f642-49c8-9d63-df9f9b92aee8)
+
 
 
 # HISTOGRAM
-![14](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/3f1b5055-263b-4746-a1cd-a3719a342689)
+![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/2ec7d32c-206a-4235-91b9-6a71be8fb535)
+
 
 
 # BRIGHTNESS DAN CONTRAS
-![15](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/92961cb0-8ced-46ea-9d99-747bc91ad613)
+![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/24ad2d50-67c5-4218-982f-0715ed66dccd)
+
 
 # CONTOURS
-![16](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/80ebc0a7-d183-43c9-8cb7-a2d79a2743fb)
+![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/4945d961-e093-4199-b18b-0a9a723d824e)
+
 
 
 # SEGMENTASI
-![17](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/cf86547b-d08a-4ab4-9af4-e1df8c21f555)
+![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/f52ee6b5-f64e-4f6f-9dbe-978886ed0317)
+
 
 
 
