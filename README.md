@@ -11,11 +11,10 @@ Mata Kuliah : Pengolahan Citra
 ```
 
 # LINK PDF TUTORIAL PENGGUNAAN APLIKASI
-[Tutorial penggunaan Aplikasi Manipulasi Proses Gambar Citra_.pdf](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/files/15436771/Tutorial.penggunaan.Aplikasi.Manipulasi.Proses.Gambar.Citra_.pdf)
+[Tutorial penggunaan Aplikasi Manipulasi Proses Gambar Citra-.pdf](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/files/15446304/Tutorial.penggunaan.Aplikasi.Manipulasi.Proses.Gambar.Citra-.pdf)
 
 
-
-# Code nya 
+# Meng import library yang akan di gunakan 
 
 ```
 import streamlit as st
@@ -56,13 +55,13 @@ def set_theme():
         unsafe_allow_html=True
     )
 ```
-# HSV
+# konversi ke RGB Ke HSV
 ```
 def convert_to_hsv(image):
     hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
     return hsv_image
 ```
-# HISTOGRAM
+# Menghitung dan juga Menampilkan HISTOGRAM
 ```
 def compute_histogram(image):
     colors = ('b', 'g', 'r')
@@ -76,13 +75,13 @@ def compute_histogram(image):
     ax.set_ylabel('Frequency')
     st.pyplot(fig)
 ```
-# BRIGHTNESS DAN CONTRAS
+# Mengatur sesuai keinginan pada BRIGHTNESS DAN CONTRAS
 ```
 def adjust_brightness_contrast(image, brightness, contrast):
     adjusted = cv2.convertScaleAbs(image, alpha=contrast/127.0, beta=brightness)
     return adjusted
 ```
-# CONTOURS
+# Mendeteksi CONTOURS
 ```
 def find_contours(image):
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
@@ -91,7 +90,7 @@ def find_contours(image):
     contours, _ = cv2.findContours(edged, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     return contours
 ```
-SEGMENTASI
+# Menampilkan SEGMENTASI
 ```
 def segment_image_kmeans(image, k):
     image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
