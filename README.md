@@ -103,7 +103,7 @@ def segment_image_kmeans(image, k):
     segmented_image = segmented_image.reshape(image.shape)
     return segmented_image
 ```
-# Bagian penting di bawah ini
+# Desain interface pada streamlit
 ```
 def main():
     set_theme()
