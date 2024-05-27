@@ -11,7 +11,7 @@ Mata Kuliah : Pengolahan Citra
 ```
 
 # LINK PDF TUTORIAL PENGGUNAAN APLIKASI
-[Tutorial penggunaan Aplikasi Manipulasi Proses Gambar Citra-.pdf](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/files/15446304/Tutorial.penggunaan.Aplikasi.Manipulasi.Proses.Gambar.Citra-.pdf)
+[Tutorial.penggunaan.Aplikasi.Manipulasi.Proses.Gambar.Citra_.pdf](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/files/15458650/Tutorial.penggunaan.Aplikasi.Manipulasi.Proses.Gambar.Citra_.pdf)
 
 
 # Meng import library yang akan di gunakan 
@@ -161,36 +161,41 @@ if _name_ == '_main_':
 # Hasil
 
 # Upload gambar
-![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/de60cfa4-0047-4410-8014-26eb6e630f34)
+![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/d5378e97-3bdd-494e-ba5b-43576c6ec2e2)
 
 
 
 
 # Sudah di upload
-![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/e9cd5d30-b83f-440a-b24d-25ad03a6379b)
+![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/f03b9621-377f-4f09-ac51-4de070ce5c31)
+
 
 
 # HSV
-![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/8ae4db1e-f642-49c8-9d63-df9f9b92aee8)
+![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/a21c8701-f31e-48f1-abd3-78fa16a93d4d)
+
 
 
 
 # HISTOGRAM
-![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/2ec7d32c-206a-4235-91b9-6a71be8fb535)
+![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/bd408a17-b3e4-4a8d-9075-af8b9c6e7892)
+
 
 
 
 # BRIGHTNESS DAN CONTRAS
-![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/24ad2d50-67c5-4218-982f-0715ed66dccd)
+![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/0f73185f-afe2-440a-81c8-9ad8b2eb5dbc)
+
 
 
 # CONTOURS
-![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/4945d961-e093-4199-b18b-0a9a723d824e)
+![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/8a42f292-285a-46a6-9882-753daa111775)
+
 
 
 
 # SEGMENTASI
-![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115562487/f52ee6b5-f64e-4f6f-9dbe-978886ed0317)
+![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/d9226615-f988-4b22-b844-36b91a0077e7)
 
 
 
