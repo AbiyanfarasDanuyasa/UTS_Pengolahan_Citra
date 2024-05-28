@@ -78,13 +78,13 @@ def Menghitung histogram(image):
 ```
 # Mengatur sesuai keinginan pada BRIGHTNESS DAN CONTRAS
 ```
-def mengatur_brignest_contras(image, brignest, contras):
+def Menyesuaikan_brignest_contras(image, brignest, contras):
     adjusted = cv2.convertScaleAbs(image, alpha=contrast/127.0, beta=brightness)
     return adjusted
 ```
 # Mendeteksi CONTOURS
 ```
-def menemukan contours(image):
+def Menemukan contours(image):
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     blurred = cv2.GaussianBlur(gray, (5, 5), 0)
     edged = cv2.Canny(blurred, 50, 150)
@@ -125,13 +125,13 @@ def main():
             st.subheader('Histogram')
             compute_histogram(image)
 
-        st.subheader('mengatur Brignest and Contras')
+        st.subheader('Menyesuaikan Brignest and Contras')
         brightness = st.slider('Brightness', -100, 100, 0)
         contrast = st.slider('Contrast', -100, 100, 0)
         adjusted_image = adjust_brightness_contrast(image, brightness, contrast)
         st.image(adjusted_image, channels="BGR", use_column_width=True)
 
-        if st.button('menemukan Contours'):
+        if st.button('Menemukan Contours'):
             contours = find_contours(image)
             st.subheader('Contours')
             image_with_contours = cv2.drawContours(image.copy(), contours, -1, (0, 255, 0), 2)
