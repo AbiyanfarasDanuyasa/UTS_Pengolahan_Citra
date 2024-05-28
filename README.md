@@ -91,19 +91,7 @@ def find_contours(image):
     contours, _ = cv2.findContours(edged, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     return contours
 ```
-# Menampilkan SEGMENTASI
-```
-def segment_image_kmeans(image, k):
-    image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-    pixel_values = image_rgb.reshape((-1, 3))
-    pixel_values = np.float32(pixel_values)
-    criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.2)
-    _, labels, centers = cv2.kmeans(pixel_values, k, None, criteria, 10, cv2.KMEANS_RANDOM_CENTERS)
-    centers = np.uint8(centers)
-    segmented_image = centers[labels.flatten()]
-    segmented_image = segmented_image.reshape(image.shape)
-    return segmented_image
-```
+
 # Desain interface pada streamlit
 ```
 def main():
@@ -148,12 +136,6 @@ def main():
             st.subheader('Contours')
             image_with_contours = cv2.drawContours(image.copy(), contours, -1, (0, 255, 0), 2)
             st.image(image_with_contours, channels="BGR", use_column_width=True)
-        
-        st.subheader('Segmentasi')
-        k = st.slider('Number of clusters (k)', 2, 10, 4)
-        if st.button('Segment Image'):
-            segmented_image = segment_image_kmeans(image, k)
-            st.image(segmented_image, caption='Segmented Image', use_column_width=True)
 
 if _name_ == '_main_':
     main()
@@ -195,8 +177,6 @@ if _name_ == '_main_':
 
 
 
-# SEGMENTASI
-![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/d9226615-f988-4b22-b844-36b91a0077e7)
 
 
 
