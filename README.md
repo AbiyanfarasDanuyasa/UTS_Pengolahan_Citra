@@ -11,7 +11,7 @@ Mata Kuliah : Pengolahan Citra
 ```
 
 # LINK PDF TUTORIAL PENGGUNAAN APLIKASI
-[Tutorial.penggunaan.Aplikasi.Manipulasi.Proses.Gambar.Citra_.pdf](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/files/15458650/Tutorial.penggunaan.Aplikasi.Manipulasi.Proses.Gambar.Citra_.pdf)
+[Tutorial penggunaan Aplikasi Manipulasi  Gambar Citra_.pdf](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/files/15468135/Tutorial.penggunaan.Aplikasi.Manipulasi.Gambar.Citra_.pdf)
 
 
 # Meng import library yang akan di gunakan 
