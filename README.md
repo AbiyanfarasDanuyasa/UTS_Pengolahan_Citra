@@ -58,13 +58,13 @@ def set_theme():
 ```
 # konversi ke RGB Ke HSV
 ```
-def convert_to_hsv(image):
+def RGB menjadi HSV(image):
     hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
     return hsv_image
 ```
 # Menghitung dan juga Menampilkan HISTOGRAM
 ```
-def compute_histogram(image):
+def Menghitung histogram(image):
     colors = ('b', 'g', 'r')
     fig, ax = plt.subplots(figsize=(6, 4))
     for i, col in enumerate(colors):
@@ -78,13 +78,13 @@ def compute_histogram(image):
 ```
 # Mengatur sesuai keinginan pada BRIGHTNESS DAN CONTRAS
 ```
-def adjust_brightness_contrast(image, brightness, contrast):
+def mengatur_brignest_contras(image, brignest, contras):
     adjusted = cv2.convertScaleAbs(image, alpha=contrast/127.0, beta=brightness)
     return adjusted
 ```
 # Mendeteksi CONTOURS
 ```
-def find_contours(image):
+def menemukan contours(image):
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     blurred = cv2.GaussianBlur(gray, (5, 5), 0)
     edged = cv2.Canny(blurred, 50, 150)
@@ -113,25 +113,25 @@ def main():
         file_bytes = np.asarray(bytearray(uploaded_file.read()), dtype=np.uint8)
         image = cv2.imdecode(file_bytes, 1)
 
-        st.subheader('Original Image')
+        st.subheader('Gambar Asli')
         st.image(image, channels="BGR", use_column_width=True)
 
-        if st.button('Convert to HSV'):
+        if st.button('RGB menjadi HSV'):
             hsv_image = convert_to_hsv(image)
             st.subheader('HSV Image')
             st.image(hsv_image, channels="HSV", use_column_width=True)
 
-        if st.button('Compute Histogram'):
+        if st.button('Menghitung Histogram'):
             st.subheader('Histogram')
             compute_histogram(image)
 
-        st.subheader('Adjust Brightness and Contrast')
+        st.subheader('mengatur Brignest and Contras')
         brightness = st.slider('Brightness', -100, 100, 0)
         contrast = st.slider('Contrast', -100, 100, 0)
         adjusted_image = adjust_brightness_contrast(image, brightness, contrast)
         st.image(adjusted_image, channels="BGR", use_column_width=True)
 
-        if st.button('Find Contours'):
+        if st.button('menemukan Contours'):
             contours = find_contours(image)
             st.subheader('Contours')
             image_with_contours = cv2.drawContours(image.copy(), contours, -1, (0, 255, 0), 2)
