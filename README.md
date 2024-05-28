@@ -166,12 +166,12 @@ if _name_ == '_main_':
 
 
 
-# BRIGHTNESS DAN CONTRAS
+# BRIGNEST DAN CONTRAS
 ![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/0f73185f-afe2-440a-81c8-9ad8b2eb5dbc)
 
 
 
-# CONTOURS
+# CONTOUR
 ![image](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/assets/115553474/8a42f292-285a-46a6-9882-753daa111775)
 
 
