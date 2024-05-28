@@ -11,8 +11,8 @@ Kelas : TI.22.A2
 Mata Kuliah : Pengolahan Citra
 ```
 
-# LINK PDF TUTORIAL PENGGUNAAN APLIKASI
-[Tutorial penggunaan Aplikasi Manipulasi  Gambar Citra_.pdf](https://github.com/AbiyanfarasDanuyasa/UTS_pengolahan_citra/files/15468135/Tutorial.penggunaan.Aplikasi.Manipulasi.Gambar.Citra_.pdf)
+# LINK PDF TUTORIAL ATAU CARA MENGGUNAKAN APLIKASI MANIPULASI GAMBAR CITRA
+[Tutorial atau cara menggunakan Aplikasi Manipulasi Gambar Citra.pdf](https://github.com/AbiyanfarasDanuyasa/UTS_Pengolahan_Citra/files/15473653/Tutorial.atau.cara.menggunakan.Aplikasi.Manipulasi.Gambar.Citra.pdf)
 
 
 # Meng import library yang akan di gunakan 
