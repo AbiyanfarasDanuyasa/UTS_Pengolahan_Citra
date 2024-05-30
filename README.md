@@ -15,6 +15,21 @@ Mata Kuliah : Pengolahan Citra
 # LINK PDF TUTORIAL ATAU CARA MENGGUNAKAN APLIKASI MANIPULASI GAMBAR CITRA
 [Tutorial atau cara menggunakan Aplikasi Manipulasi Gambar Citra-.pdf](https://github.com/AbiyanfarasDanuyasa/UTS_Pengolahan_Citra/files/15474851/Tutorial.atau.cara.menggunakan.Aplikasi.Manipulasi.Gambar.Citra-.pdf)
 
+# Buat folder terlebih dahulu 
+```
+UTS_Pengolahan_Citra
+```
+
+# Kemudian kita masuk ke file nya lewat cmd atau terminal vscode
+```
+cd UTS_Pengolahan_Citra
+```
+
+# Kemudian setelah masuk ke folder file coba jalankan file tersebut atau file yang ada di dalem nya dengan cara
+
+```
+streamlit run app.py
+```
 
 # Meng import library yang akan di gunakan 
 
